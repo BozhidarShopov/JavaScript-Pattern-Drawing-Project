@@ -108,7 +108,7 @@ while (true) {
             break;
 
         case 7: // Reverse Pyramid
-            // TODO: Use nested loops to create a reverse pyramid
+            // TODO: Use nested loops to create a reverse pyramid✅✅✅✅✅✅✅✅✅✅✅✅ - same as pyramid just changing the for loop
             for( let i = rows; i >= 1 ; i--){
                 let string = ``
                 string += ` `.repeat(rows - i)
