@@ -98,7 +98,13 @@ while (true) {
             break;
 
         case 6: // Pyramid
-            // TODO: Use nested loops to create a centered pyramid
+            // TODO: Use nested loops to create a centered pyramid✅✅✅✅✅✅✅✅✅✅✅✅ - half of the diamond shape
+            for(let i = 1; i <= rows; i ++){
+                let string = ``
+                string += ` `.repeat(rows - i)
+                string += `*`.repeat(2*i-1)
+                console.log(string)
+            }
             break;
 
         case 7: // Reverse Pyramid
