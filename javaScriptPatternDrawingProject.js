@@ -84,7 +84,17 @@ while (true) {
             break;
 
         case 5: // Hollow Square
-            // TODO: Use nested loops to create a hollow square
+            // TODO: Use nested loops to create a hollow square ✅✅✅✅✅✅✅✅✅✅✅✅ same as the 2nd. option
+            for( let i = 1 ; i <= rows; i ++){
+                if (i === 1 || i === rows){
+                    let string = ``
+          string += `*`.repeat(rows)
+          console.log(string)
+          string =``
+            } else {
+                console.log(`*` + ` `.repeat(rows-2) + `*`)
+            }
+        }
             break;
 
         case 6: // Pyramid
