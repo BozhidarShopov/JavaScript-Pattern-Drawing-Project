@@ -35,10 +35,32 @@ The program is interactive, allowing users to:
 ---
 
 
-🖥️ Usage
-Run the program and choose a pattern type by entering the number corresponding to the pattern.
-Input the required dimensions when prompted.
-View the generated pattern in the console.
+
+## 🖥️ Usage
+
+1. Run the program.
+2. Follow these steps:
+   - **Step 1:** Choose a pattern type by entering the number corresponding to the desired pattern:
+     - `1` Right-angled Triangle  
+     - `2` Square with Hollow Center  
+     - `3` Diamond  
+     - `4` Left-angled Triangle  
+     - `5` Hollow Square  
+     - `6` Pyramid  
+     - `7` Reverse Pyramid  
+     - `8` Rectangle with Hollow Center  
+   - **Step 2:** Enter the required dimensions:
+     - For most patterns, provide the number of rows.
+     - For the rectangle pattern, provide both width and height.  
+   - **Step 3:** View the generated pattern in the console.
+
+🚀
+
+
+3. You can restart the program by typing `y` when prompted, or exit by typing any other key.
+
+**Example Output**  
+For a Right-angled Triangle with 5 rows:
 
 
 📜 Attribution
