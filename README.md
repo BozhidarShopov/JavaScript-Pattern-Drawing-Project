@@ -54,14 +54,15 @@ The program is interactive, allowing users to:
      - For the rectangle pattern, provide both width and height.  
    - **Step 3:** View the generated pattern in the console.
 
-🚀
-
-
 3. You can restart the program by typing `y` when prompted, or exit by typing any other key.
 
 **Example Output**  
 For a Right-angled Triangle with 5 rows:
-
+*
+**
+***
+****
+*****
 
 📜 Attribution
 Initial Code Framework:
