@@ -74,7 +74,13 @@ while (true) {
             break;
 
         case 4: // Left-angled Triangle
-            // TODO: Use nested loops to create a left-angled triangle
+            // TODO: Use nested loops to create a left-angled triangle✅✅✅✅✅✅✅✅✅✅✅✅
+            for( let i = 1 ; i<= rows; i ++){
+                let string = ``
+                string += ` `.repeat(rows - i)
+                string += `*`.repeat(i)
+                console.log(string)
+        }
             break;
 
         case 5: // Hollow Square
