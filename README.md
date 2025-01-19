@@ -56,14 +56,6 @@ The program is interactive, allowing users to:
 
 3. You can restart the program by typing `y` when prompted, or exit by typing any other key.
 
-**Example Output**  
-For a Right-angled Triangle with 5 rows:
-*
-**
-***
-****
-*****
-
 📜 Attribution
 Initial Code Framework:
 The main structure and functionality, including the menu system and user input handling, were provided by Mario Zahariev, my lecturer at Softuni.
