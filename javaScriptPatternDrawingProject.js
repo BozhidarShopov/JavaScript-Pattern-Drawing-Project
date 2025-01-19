@@ -109,6 +109,12 @@ while (true) {
 
         case 7: // Reverse Pyramid
             // TODO: Use nested loops to create a reverse pyramid
+            for( let i = rows; i >= 1 ; i--){
+                let string = ``
+                string += ` `.repeat(rows - i)
+                string +=`*`.repeat((2*i)-1)
+                console.log(string)  
+            }
             break;
 
         case 8: // Rectangle with Hollow Center
