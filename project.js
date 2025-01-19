@@ -31,11 +31,29 @@ while (true) {
     // Step 4: Generate the selected pattern
     switch (choice) {
         case 1: // Right-angled Triangle
-            // TODO: Use nested loops to create a right-angled triangle
+            // TODO: Use nested loops to create a right-angled triangle ✅✅✅✅✅✅
+            for (let i = 1; i <= rows; i++) {
+                let string = "";
+                for (let j = 1; j <= i; j++) {
+                    string += "*";
+                }
+                console.log(string);
+            }
+            
             break;
 
-        case 2: // Square with Hollow Center
-            // TODO: Use nested loops to create a square with a hollow center
+        case 2: // Square with Hollow Center 
+            // TODO: Use nested loops to create a square with a hollow center✅✅✅✅✅
+            for( let i = 1 ; i <= rows; i ++){
+                let string = ``
+                if (i === 1 || i === rows){
+          string += `*`.repeat(rows)
+          console.log(string)
+          string =``
+            } else {
+                console.log(`*` + ` `.repeat(rows-2) + `*`)
+            }
+        }
             break;
 
         case 3: // Diamond
