@@ -60,7 +60,7 @@ The program is interactive, allowing users to:
 Initial Code Framework:
 The main structure and functionality, including the menu system and user input handling, were provided by Mario Zahariev, my lecturer at Softuni.
 
-My Contribution:
+✅ My Contribution:
 I implemented the logic for drawing the patterns in the sections marked with // TODO.
 
 🤝 Contributing
@@ -70,4 +70,4 @@ This project is intended as a learning exercise. However, if you'd like to contr
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙏 Acknowledgments
-Special thanks to Mario Zahariev, my lecturer at Softuni, for providing the initial code framework and guiding me through the Programming Fundamentals with JavaScript cours
+Special thanks to Mario Zahariev, my lecturer at Softuni, for providing the initial code framework and guiding me through the Programming Fundamentals with JavaScript course.
