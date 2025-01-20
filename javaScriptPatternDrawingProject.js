@@ -118,7 +118,19 @@ while (true) {
             break;
 
         case 8: // Rectangle with Hollow Center
-            // TODO: Use nested loops to create a rectangle with a hollow center
+            // TODO: Use nested loops to create a rectangle with a hollow center✅✅✅✅✅✅✅✅✅✅✅✅
+            for (let i = 1; i<=height; i ++){
+                let string = ``
+                if(i === 1 || i === height){
+                string += `*`.repeat(width)
+                console.log(string)
+                }else{
+                    string += `*` +` `.repeat(width-2) + `*`
+                    console.log(string)
+                }
+            }
+        
+        
             break;
 
         default:
