@@ -17,6 +17,10 @@ The program provides a menu where users can select a pattern type, specify dimen
 
 ---
 
+✅ My Contribution:
+- I implemented the logic for drawing the patterns in the sections marked with // TODO.
+- I implemented the logic for adding an option for the user to choose a symbol from which the shapes are displayed.
+
 ## ✨ Features
 
 - ✅ Right-angled Triangle  
@@ -60,10 +64,6 @@ The program is interactive, allowing users to:
 📜 Attribution
 Initial Code Framework:
 The main structure and functionality, including the menu system and user input handling, were provided by Mario Zahariev, my lecturer at Softuni.
-
-✅ My Contribution:
-I implemented the logic for drawing the patterns in the sections marked with // TODO.
-I implemented the logic for adding an option for the user to choose a symbol from which the shapes are displayed.
 
 🤝 Contributing
 This project is intended as a learning exercise. However, if you'd like to contribute by improving the code or adding new patterns, feel free to fork the repository and submit a pull request.
