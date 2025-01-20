@@ -16,9 +16,9 @@ while (true) {
   const choice = parseInt(
     prompt("Enter the number corresponding to your choice: "),10);
     
-    //New step added by me -Bozhidar Shopov
-    // It asks the user for the symbol he wants to use - it only logs 1`s so i need to learn how to fix it before implementing
-    //const symbol =parseInt(prompt(`Enter the symbol to use for the shape`));
+    //New step added by me -Bozhidar Shopov✅✅✅✅✅✅✅✅✅✅✅✅ 
+    const symbol = prompt("Enter the symbol to use for the shape: ")
+   // It asks the user for the symbol he wants to use
 
   // Step 3: Get dimensions based on choice
   let rows = 0,
@@ -42,7 +42,7 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         let string = "";
         for (let j = 1; j <= i; j++) {
-          string += `*`;
+          string += symbol;
         }
         console.log(string);
       }
@@ -54,11 +54,11 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         let string = ``;
         if (i === 1 || i === rows) {
-          string += `*`.repeat(rows);
+          string += symbol.repeat(rows);
           console.log(string);
           string = ``;
         } else {
-          console.log(`*` + ` `.repeat(rows - 2) + `*`);
+          console.log(symbol + ` `.repeat(rows - 2) + symbol);
         }
       }
       break;
@@ -68,14 +68,14 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         let string = ``;
         string += ` `.repeat(rows - i);
-        string += `*`.repeat(2 * i - 1);
+        string += symbol.repeat(2 * i - 1);
         console.log(string);
       }
       let i = rows - 1;
       for (let j = i; j >= 1; j--) {
         let string = ``;
         string += ` `.repeat(rows - j);
-        string += `*`.repeat(2 * j - 1);
+        string += symbol.repeat(2 * j - 1);
         console.log(string);
       }
       break;
@@ -85,7 +85,7 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         let string = ``;
         string += ` `.repeat(rows - i);
-        string += `*`.repeat(i);
+        string += symbol.repeat(i);
         console.log(string);
       }
       break;
@@ -95,11 +95,11 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         if (i === 1 || i === rows) {
           let string = ``;
-          string += `*`.repeat(rows);
+          string += symbol.repeat(rows);
           console.log(string);
           string = ``;
         } else {
-          console.log(`*` + ` `.repeat(rows - 2) + `*`);
+          console.log(symbol + ` `.repeat(rows - 2) + symbol);
         }
       }
       break;
@@ -109,7 +109,7 @@ while (true) {
       for (let i = 1; i <= rows; i++) {
         let string = ``;
         string += ` `.repeat(rows - i);
-        string += `*`.repeat(2 * i - 1);
+        string += symbol.repeat(2 * i - 1);
         console.log(string);
       }
       break;
@@ -119,7 +119,7 @@ while (true) {
       for (let i = rows; i >= 1; i--) {
         let string = ``;
         string += ` `.repeat(rows - i);
-        string += `*`.repeat(2 * i - 1);
+        string += symbol.repeat(2 * i - 1);
         console.log(string);
       }
       break;
@@ -129,10 +129,10 @@ while (true) {
       for (let i = 1; i <= height; i++) {
         let string = ``;
         if (i === 1 || i === height) {
-          string += `*`.repeat(width);
+          string += symbol.repeat(width);
           console.log(string);
         } else {
-          string += `*` + ` `.repeat(width - 2) + `*`;
+          string += symbol + ` `.repeat(width - 2) + symbol;
           console.log(string);
         }
       }
