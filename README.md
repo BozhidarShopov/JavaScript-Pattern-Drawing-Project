@@ -12,7 +12,8 @@ This program is based on an initial framework provided by **Mario Zahariev**, my
 The program provides a menu where users can select a pattern type, specify dimensions, and display geometric patterns using asterisks (`*`).  
 
 💡 **My Role:**  
-I am responsible for completing the sections marked with `// TODO` comments by implementing the logic for drawing the patterns.  
+- I am responsible for completing the sections marked with `// TODO` comments by implementing the logic for drawing the patterns.
+ - I am responsible for adding functionality to the original program 
 
 ---
 
@@ -62,6 +63,7 @@ The main structure and functionality, including the menu system and user input h
 
 ✅ My Contribution:
 I implemented the logic for drawing the patterns in the sections marked with // TODO.
+I implemented the logic for adding an option for the user to choose a symbol from which the shapes are displayed.
 
 🤝 Contributing
 This project is intended as a learning exercise. However, if you'd like to contribute by improving the code or adding new patterns, feel free to fork the repository and submit a pull request.
